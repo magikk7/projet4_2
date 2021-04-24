@@ -7,15 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* .taille-logo {
-    width: 100%;
+/* img.center-block.image-resize-mode {
+    width: 100px;
     height: auto;
 } */
 
-img.center-block.image-resize-mode {
-    width: 100px;
-    height: auto;
-}
 
 a,
 button {
