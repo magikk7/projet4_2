@@ -7,7 +7,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.taille-logo {
+/* .taille-logo {
+    width: 100%;
+    height: auto;
+} */
+
+img.center-block.image-resize-mode {
     width: 100%;
     height: auto;
 }
