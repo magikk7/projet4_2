@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.taille-logo {
+    width: 100%;
+    height: auto;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
