@@ -17,6 +17,19 @@ body {
     /* position: relative; */
 }
 
+.ombre {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.texte-italic {
+    font-style: italic;
+}
+
+.texte-imp {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 a,
 button {
     /* transition: all .3s ease-in-out; */
@@ -466,7 +479,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: #FFF; 
     /* background: rgba(0, 0, 0, .3); */
 }
 
@@ -688,7 +701,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -703,7 +716,8 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    /* color: #FFFFFF!important;  */
+    color: #000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -714,6 +728,7 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+
 
 h2 {
     font-size: 22px;
@@ -748,6 +763,10 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.dark {
+    color: #000!important;
 }
 
 .portfolio-thumb {
@@ -790,9 +809,11 @@ h4 {
     color: #F3976C!important;
 }
 
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    /* color: #FFFFFF!important; */
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -802,6 +823,10 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+}
+
+.ltc-dark {
+    color: #000!important;
 }
 
 .ltc-white:hover {
